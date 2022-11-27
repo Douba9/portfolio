@@ -1,0 +1,86 @@
+.App-header {
+  border-radius: inherit;
+  background: linear-gradient(to right, #282c34, #555e72c7);
+  height: 150%;
+  color: white;
+  text-align: center;
+  font-size: 150%;
+}
+
+body {
+  background-image: url('./imgs/codeimg.jpg');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  display: block;
+  width: 100%;
+}
+
+.Containers {
+  display: flex;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  margin: 1%;
+  box-shadow: 10px 5px 5px black;
+  padding: 1%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containers-titles {
+  background-color: white;
+  box-shadow: 10px 5px 5px black;
+  height: 5%;
+  display: block;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.linksContainer {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  color: #282c34;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 4px;
+}
+
+.links {
+  cursor: pointer;
+}.links:hover {
+  opacity: 60%;
+}
+
+#arobase {
+  width: 10%;
+}
+
+#git {
+  font-size: 200%;
+  width: 25%;
+}
+
+#contact {
+  font-size: 200%;
+  width: 40%;
+}
+
+#contactContainer {
+  display: flex;
+}
+
+#myImg {
+  border-style: outset;
+  border-radius: 4px;
+  margin-right: 1%;
+}
